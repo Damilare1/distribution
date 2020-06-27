@@ -139,9 +139,6 @@ class Gaussian(Distribution):
 			list: y values for the pdf plot
 			
 		"""
-		
-		mu = self.mean
-		sigma = self.stdev
 
 		min_range = min(self.data)
 		max_range = max(self.data)
